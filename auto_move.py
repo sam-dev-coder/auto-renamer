@@ -2,9 +2,9 @@ import os
 import shutil
 
 # Set the parent directory where all the subfolders are located
-parent_dir = 'I:\Spartificial Internship\Data\Khagesh'
+parent_dir = 'Project\Data\LabelNo_json'
 # Set the destination directory where the renamed files will be moved to
-dest_dir = 'I:\Spartificial Internship\Data\Khagesh\Label'
+dest_dir = 'Project\Data\Label'
 
 # Loop through all the subfolders in the parent directory
 for folder_name in os.listdir(parent_dir):
